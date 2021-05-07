@@ -28,3 +28,20 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```
 
+# 4
+
+Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+
+For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+
+Bonus: Can you do this in one pass?
+
+# 5
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+    - record(timestamp): records a hit that happened at timestamp
+    - total(): returns the total number of hits recorded
+    - range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+
+Follow-up: What if our system has limited memory?
